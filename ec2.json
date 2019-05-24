@@ -21,7 +21,7 @@
     "Ec2Instance": {
       "Type": "AWS::EC2::Instance",
       "Properties": {
-        "InstanceType": "t2.micro",
+        "InstanceType": "t2.medium",
         "AvailabilityZone": "us-east-1a",
         "SecurityGroups": [
           {
